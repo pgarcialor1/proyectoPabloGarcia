@@ -11,4 +11,8 @@ public class PabloGarciaMusica {
 		this.numCanciones = numCanciones;
 		this.nombreHobby = nombreHobby;
 	}
+	
+	public void setGrupo(String grupo) {
+		this.grupo = grupo;
+	}
 }
