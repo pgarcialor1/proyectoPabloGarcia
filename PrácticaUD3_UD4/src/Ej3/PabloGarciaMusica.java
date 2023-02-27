@@ -19,5 +19,10 @@ public class PabloGarciaMusica {
 		return this.grupo;
 	}
 	
-	
+	public void setNumCanciones(int numCanciones) {
+		this.numCanciones = numCanciones;
+	}
+	public int getNumCanciones() {
+		return this.numCanciones;
+	}
 }
