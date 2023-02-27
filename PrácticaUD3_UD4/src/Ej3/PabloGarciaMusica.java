@@ -38,4 +38,7 @@ public class PabloGarciaMusica {
 	public void setIntegrantes(int integrantes) {
 		this.integrantes = integrantes;
 	}
+	public int getIntegrantes() {
+		return this.integrantes;
+	}
 }
