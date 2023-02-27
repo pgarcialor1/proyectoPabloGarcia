@@ -25,4 +25,8 @@ public class PabloGarciaMusica {
 	public int getNumCanciones() {
 		return this.numCanciones;
 	}
+	
+	public void setNombreHobby(String nombreHobby) {
+		this.nombreHobby = nombreHobby;
+	}
 }
