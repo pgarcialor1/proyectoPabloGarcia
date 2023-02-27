@@ -59,4 +59,11 @@ public class PabloGarciaMusica {
 		return this.visitas;
 	}
 	
+	private void loop() {
+		int x = 0;
+		while (x <= 1000) {
+            System.out.println( this.nombreHobby );
+            x++;
+        }
+	}
 }
