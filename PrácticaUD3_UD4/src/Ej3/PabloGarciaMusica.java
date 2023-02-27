@@ -55,4 +55,7 @@ public class PabloGarciaMusica {
 	public void setVisitas(int visitas) {
 		this.visitas = visitas;
 	}
+	public int getVisitas() {
+		return this.visitas;
+	}
 }
