@@ -15,4 +15,7 @@ public class PabloGarciaMusica {
 	public void setGrupo(String grupo) {
 		this.grupo = grupo;
 	}
+	public String getGrupo() {
+		return this.grupo;
+	}
 }
