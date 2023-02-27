@@ -5,11 +5,13 @@ public class PabloGarciaMusica {
 	public String grupo;
 	public int numCanciones;
 	public String nombreHobby;
+	public int integrantes;
 	
-	public PabloGarciaMusica(String grupo, int numCanciones, String nombreHobby) {
+	public PabloGarciaMusica(String grupo, int numCanciones, String nombreHobby, int integrantes) {
 		this.grupo = grupo;
 		this.numCanciones = numCanciones;
 		this.nombreHobby = nombreHobby;
+		this.integrantes = integrantes;
 	}
 	
 	public void setGrupo(String grupo) {
@@ -31,5 +33,9 @@ public class PabloGarciaMusica {
 	}
 	public String getNombreHobby() {
 		return this.nombreHobby;
+	}
+	
+	public void setIntegrantes(int integrantes) {
+		this.integrantes = integrantes;
 	}
 }
