@@ -6,12 +6,14 @@ public class PabloGarciaMusica {
 	public int numCanciones;
 	public String nombreHobby;
 	public int integrantes;
+	public String instrumentos;
 	
-	public PabloGarciaMusica(String grupo, int numCanciones, String nombreHobby, int integrantes) {
+	public PabloGarciaMusica(String grupo, int numCanciones, String nombreHobby, int integrantes, String instrumentos) {
 		this.grupo = grupo;
 		this.numCanciones = numCanciones;
 		this.nombreHobby = nombreHobby;
 		this.integrantes = integrantes;
+		this.instrumentos = instrumentos;
 	}
 	
 	public void setGrupo(String grupo) {
@@ -40,5 +42,9 @@ public class PabloGarciaMusica {
 	}
 	public int getIntegrantes() {
 		return this.integrantes;
+	}
+	
+	public void setInstrumentos(String instrumentos) {
+		this.instrumentos = instrumentos;
 	}
 }
