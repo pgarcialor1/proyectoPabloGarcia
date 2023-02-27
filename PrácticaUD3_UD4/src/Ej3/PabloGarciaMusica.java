@@ -47,4 +47,7 @@ public class PabloGarciaMusica {
 	public void setInstrumentos(String instrumentos) {
 		this.instrumentos = instrumentos;
 	}
+	public String getInstrumentos() {
+		return this.instrumentos;
+	}
 }
